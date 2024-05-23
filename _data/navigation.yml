@@ -1,12 +1,12 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "技术能力"
     url: /publications/
 
-  - title: "Talks"
+  - title: "项目经历"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "里程碑"
     url: /teaching/    
     
   - title: "Portfolio"

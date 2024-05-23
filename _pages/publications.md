@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "项目经历"
 permalink: /publications/
 author_profile: true
 ---
