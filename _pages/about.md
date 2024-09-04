@@ -42,9 +42,9 @@ nav: about
   <br/><br/>
   Previously, I was a Research & Develop Intern at Momenta.ai, where I participated in the design and development of the world model and new planner for MPilot, which is supplied to Mercedes-Benz and Toyota. 
   <br/><br/>
-  Prior to that, I was a Master student in the Control of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at Harbin Institute of Technology. My advisor was Linhui Zhao and I worked on motion planning for on-road and openspace environment. My PhD thesis on Motion Planning can be found <a href="{{ '/assets/pdf/thesis/thesis.pdf' | prepend: site.baseurl }}" target="_blank">here</a>. Throughout my PhD I also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to robotics， planning and control.
+  Prior to that, I was a M.S. student in the Control of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at Harbin Institute of Technology. My advisor was Linhui Zhao and I worked on motion planning for on-road and openspace environment. My M.S. thesis on Motion Planning can be found <a href="{{ '/assets/pdf/thesis/thesis.pdf' | prepend: site.baseurl }}" target="_blank">here</a>. Throughout my PhD I also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to robotics， planning and control.
   <br/><br/>
-  Before I joined HIT, I graduated with a Bachelor in Automation from Dalian Maritime University. I have been awarded the Scholarship for Outstanding Students and the Scholarship for Technological Innovation, and also won an award in the NXP Cup Intelligent Car Race 2019.
+  Before I joined HIT, I graduated with a B.S. in Automation from Dalian Maritime University. I have been awarded the Scholarship for Outstanding Students and the Scholarship for Technological Innovation, and also won an award in the NXP Cup Intelligent Car Race 2019.
 </div>
 
 <!-- News -->
