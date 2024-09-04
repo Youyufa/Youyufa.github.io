@@ -6,16 +6,16 @@ nav: about
 ---
 
 <div class="text-center mt-5">
-  <img class="profile-img" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+  <img class="profile-img" src="{{ 'prof_pic.jpeg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
 </div>
 
 <div class="col mt-4">
-  <h1 class="title text-center font-weight-bold">Anthony Platanios</h1>
+  <h1 class="title text-center font-weight-bold">Yufa You</h1>
   <div class="row mt-3 mb-3">
     <div class="col">
       <h6 class="mt-1 text-center text-sm-center" style="font-stretch: ultra-condensed;">
-        Research Scientist<br/>
-        Scaled Cognition
+        Motion Planning Engineer<br/>
+        BYD Motor Ltd. Autonomous Driving Unit
       </h6>
     </div>
     <!-- <div class="col-sm-6">
@@ -38,13 +38,13 @@ nav: about
 <!-- Introduction -->
 
 <div class="col text-justify p-0">
-  I am a research scientist at Scaled Cognition and a member of the initial team, where we are developing a new generation of rational, controllable AI models deployable as domain experts for grounded, real-world applications.
+  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a new generation of APA(Automated Parking Assistance), whicle called \(e^4\)APA. I lead the design and development of the parallel slot planner. I am also charged in longitudal planning, parking decision, data interface, algorithm architecture, CI&CD and data analyse.
   <br/><br/>
-  Previously, I was a Senior Principal Researcher at <a href="https://www.microsoft.com/en-us/research/project/semantic-machines/" target="_blank">Microsoft Semantic Machines</a>, where I led the design and development of a system that aims to predict the next user action (e.g., sending an email, opening a file, adding specific people to a calendar invite, etc.) based on what a user and others in their network have been doing (underlying this system was a novel Foundation Model over user actions). I managed a team across both research and engineering, and helped set the technical direction for the broader organization. I invested heavily in aligning research and engineering, and I worked closely with multiple partner teams at Microsoft to deliver on our objectives, while also helping improve the underlying platform and infrastructure that we leveraged. Earlier on in my career at Microsoft I also served as a key contributor to the research and development of the Semantic Machines conversational AI platform which handled user requests by using a neural network to synthesize computer programs in a new proprietary programming language. I designed and shipped the program synthesis neural network (i.e., a contextual semantic parser) that powers the platform.
+  Previously, I was a Research & Develop Intern at Momenta.ai, where I participated in the design and development of the world model and new planner for MPilot, which is supplied to Mercedes-Benz and Toyota. 
   <br/><br/>
-  Prior to that, I was a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>. My advisor was <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and I worked on <a href="http://rtw.ml.cmu.edu/rtw/" target="_blank">Never-Ending Learning</a>. My PhD thesis on learning collections of functions can be found <a href="{{ '/assets/pdf/thesis/thesis.pdf' | prepend: site.baseurl }}" target="_blank">here</a>. Throughout my PhD I also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to artificial intelligence and machine learning.
+  Prior to that, I was a Master student in the Control of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at Harbin Institute of Technology. My advisor was Linhui Zhao and I worked on motion planning for on-road and openspace environment. My PhD thesis on Motion Planning can be found <a href="{{ '/assets/pdf/thesis/thesis.pdf' | prepend: site.baseurl }}" target="_blank">here</a>. Throughout my PhD I also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to robotics， planning and control.
   <br/><br/>
-  Before I joined CMU, I graduated with an M.Eng. in <a href="http://www.imperial.ac.uk/electrical-engineering" target="_blank">Electrical and Electronic Engineering</a> from <a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a>. For my Master's thesis I proposed a way to use topic modelling methods in order to perform human motion classification.
+  Before I joined HIT, I graduated with a Bachelor in Automation from Dalian Maritime University. I have been awarded the Scholarship for Outstanding Students and the Scholarship for Technological Innovation, and also won an award in the NXP Cup Intelligent Car Race 2019.
 </div>
 
 <!-- News -->

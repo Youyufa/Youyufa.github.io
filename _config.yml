@@ -2,22 +2,22 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Anthony Platanios
-email: e.a.platanios@gmail.com
-description: Personal website of Anthony Platanios.
+name: You Yufa
+email: iyouyufa@gmail.com
+description: Motion Planning, Self-Driving
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-url: platanios.org
+url: youyufa.me
 
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
 scholar_userid: EFVk-mwAAAAJ
 github_username: eaplatanios
-linkedin_username: eplatanios
+linkedin_username: Yufa You
 facebook_username: anthony.platanios
 twitter_username: eaplatanios
 contact_note: Feel free to drop me a line via email.
@@ -60,7 +60,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Platanios
+  last_name: You
   style: apa
   locale: en
   sort_by: year
