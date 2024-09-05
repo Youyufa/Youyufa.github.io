@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 .history
 .DS_store
+_site/index.html
