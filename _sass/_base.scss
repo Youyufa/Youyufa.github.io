@@ -28,7 +28,7 @@ $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        rgb(60, 72, 88);
 
 /* Set theme color *************************/
-$theme-color: #b71c1c;
+$theme-color: #000000;
 $background-color: #fdfdfd;
 
 /************************************************************/
@@ -112,14 +112,14 @@ a {
 }
 
 .gm-icon {
-    background: rgb(200, 78, 63);
+    background: rgb(200, 63, 170);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: initial;
 
     &:hover {
-        background: lighten(rgb(200, 78, 63), 20%);
+        background: lighten(rgb(0, 0, 0), 20%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -144,7 +144,7 @@ a {
 }
 
 .gh-icon {
-    color: rgb(37, 41, 46);
+    color: rgb(0, 0, 0);
     background: rgb(37, 41, 46);
     background-clip: text;
     -webkit-background-clip: text;
@@ -233,7 +233,7 @@ a {
 
 .bibliography .abbr a {
     &:hover {
-        background: #ff4444 !important;
+        background: #000000 !important;
     }
 }
 
