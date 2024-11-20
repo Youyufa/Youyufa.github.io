@@ -10,11 +10,11 @@ nav: home
 </div>
 
 <!-- Place PDF download link at the top right. -->
-<div class="row" style="margin-top: -3.5em;">
+<!-- <div class="row" style="margin-top: -3.5em;">
   <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank">
     <img height="60px" src="/assets/img/pdf_icon.svg">
   </a>
-</div>
+</div> -->
 
 <div class="col mt-4">
   <h1 class="title text-center font-weight-bold">Yufa You</h1>
@@ -45,13 +45,18 @@ nav: home
 <!-- Introduction -->
 
 <div class="col text-justify p-0">
-  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a new generation of APA(Automated Parking Assistance), whicle called \(e^4\)APA. I lead the design and development of the parallel parking planner. I am also charged in longitudal planning, parking decision, data interface, algorithm architecture, CI&CD and data analyse.
+
+  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a new generation of Parking Assistance, whicle called \(e^4\)APA. 
   <br/><br/>
-  Previously, I was a Research & Develop Intern at Momenta.ai, where I participated in the design and development of the world model and new planner for MPilot. Our product is supplied to Mercedes-Benz and Toyota. 
+  Previously, I was a Research & Develop Intern at Momenta Tech Ltd., where I participated in the MPilot Self-Driving Project. Our product is supplied to Mercedes-Benz and Toyota. 
   <br/><br/>
-  Prior to that, I was a M.S. student in the Control of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at Harbin Institute of Technology. My advisor was Linhui Zhao and I worked on motion planning for on-road and openspace environment. My M.S. thesis on Motion Planning can be found <a href="{{ '/assets/pdf/thesis/thesis.pdf' | prepend: site.baseurl }}" target="_blank">here</a>. Throughout my M.S. I also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to robotics， planning and control.
+  Prior to that, I was a M.E. student at Harbin Institute of Technology, advised by Linhui Zhao. I worked on motion planning for on-road and openspace environment. My M.S. thesis on Motion Planning can be found here: <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
+    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
   <br/><br/>
-  Before I joined HIT, I graduated with a B.S. in Automation from Dalian Maritime University. I have been awarded the Scholarship for Outstanding Students and the Scholarship for Technological Innovation. I won a national award in the NXP Cup Intelligent Car Race 2019.
+  Before I joined HIT, I graduated with a B.E. in Automation from Dalian Maritime University, where I won a national award in the NXP Cup Intelligent Car Race 2019.
+   <br/><br/>
+  Here is my CV: <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank">
+    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
 </div>
 
 <!-- News -->
