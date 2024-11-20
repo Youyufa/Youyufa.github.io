@@ -16,10 +16,10 @@ url: youyufa.github.io
 # Social Integration
 # -----------------------------------------------------------------------------
 scholar_userid: EFVk-mwAAAAJ
-github_username: eaplatanios
-linkedin_username: Yufa You
-facebook_username: anthony.platanios
-twitter_username: eaplatanios
+github_username: Youyufa
+linkedin_username: yufa-you-2491a7228
+facebook_username: yufa-you-2491a7228
+twitter_username: yufa-you-2491a7228
 contact_note: Feel free to drop me a line via email.
 
 google_analytics: UA-54519238-1
@@ -35,7 +35,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 10
