@@ -46,11 +46,11 @@ nav: home
 
 <div class="col text-justify p-0">
 
-  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a Parking Assistance for 4WD vehile, whicle called E4APA. 
+  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a Parking Assistance for 4WD vehicle, whicle called E4APA. 
   <br/><br/>
   Previously, I was an Algorithm Intern at Momenta Tech Ltd., where I participated in the MPilot Self-Driving Project, which supplied to Mercedes-Benz and Toyota. 
   <br/><br/>
-  Prior to that, I was a M.E. student at Harbin Institute of Technology, advised by Linhui Zhao. I worked on motion planning for on-road and openspace environment. My M.S. thesis on Motion Planning can be found here: <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
+  Prior to that, I was a M.E. student at Harbin Institute of Technology, advised by Linhui Zhao. I worked on vehicle motion planning for on-road and openspace scenes. My M.S. thesis can be found here: <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
     <img height="30px" src="/assets/img/pdf_icon.svg"></a>
   <br/><br/>
   Before I joined HIT, I won a national award in the NXP Cup Intelligent Car Race 2019.
