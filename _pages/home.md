@@ -9,13 +9,6 @@ nav: home
   <img class="profile-img" src="{{ 'prof_pic.jpeg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
 </div>
 
-<!-- Place PDF download link at the top right. -->
-<!-- <div class="row" style="margin-top: -3.5em;">
-  <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank">
-    <img height="60px" src="/assets/img/pdf_icon.svg">
-  </a>
-</div> -->
-
 <div class="col mt-4">
   <h1 class="title text-center font-weight-bold">Yufa You</h1>
   <div class="row mt-3 mb-3">
@@ -56,6 +49,13 @@ nav: home
   Before I joined HIT, I won a national award in the NXP Cup Intelligent Car Race 2019.
    <br/><br/>
   Here is my CV: <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank">
+    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
+</div>
+
+<!-- News -->
+<div class="news mt-3 p-0">
+  <h1 class="title mb-4 p-0">publications</h1>
+  [1] Y. You, L. Zhao, H. Liu and Z. Liu, "A Hybrid Trajectory Planning Strategy for Intelligent Vehicles with Collision Avoidance," 2022 41st Chinese Control Conference (CCC), Hefei, China, 2022, pp. 5353-5358, doi: 10.23919/CCC55666.2022.9901901.<a class="ml-auto mr-2" href="/assets/pdf/ccc.pdf" target="_blank">
     <img height="30px" src="/assets/img/pdf_icon.svg"></a>
 </div>
 
