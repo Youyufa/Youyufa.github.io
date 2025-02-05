@@ -10,7 +10,7 @@ nav: home
 </div>
 
 <div class="col mt-4">
-  <h1 class="title text-center font-weight-bold">Yufa You</h1>
+  <h1 class="title text-center font-weight-bold">YOU Yufa</h1>
   <div class="row mt-3 mb-3">
     <div class="col">
       <h6 class="mt-1 text-center text-sm-center" style="font-stretch: ultra-condensed;">
@@ -39,16 +39,34 @@ nav: home
 
 <div class="col text-justify p-0">
 
-  I am a Motion Planning Engineer of BYD Ltd. Autonomous Driving Unit, where we are developing a Parking Assistance for 4WD vehicle, whicle called E4APA. 
+  I am a Motion Planning Engineer at BYD Ltd. in the Autonomous Driving Unit, where we are developing the E4APA Parking Assistance system for 4WD vehicles.
   <br/><br/>
-  Previously, I was an Algorithm Intern at Momenta Tech Ltd., where I participated in the MPilot Self-Driving Project, which supplied to Mercedes-Benz and Toyota. 
+  <div style="text-align: center;">
+    <video width="60%" height="auto" controls muted>  
+      <source src="assets/vid/e4apa-plot.mp4" type="video/mp4">  
+    </video>
+  </div>
   <br/><br/>
-  Prior to that, I was a M.E. student at Harbin Institute of Technology, advised by Linhui Zhao. I worked on vehicle motion planning for on-road and openspace scenes. My M.S. thesis can be found here: <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
+  Prior to this role, I worked as an Algorithm Intern at Momenta Tech Ltd., contributing to the MPilot Self-Driving Project, which was delivered to Mercedes-Benz and Toyota.
+  <br/><br/>
+  Before joining Momenta, I completed my M.S. in Control Engineering at Harbin Institute of Technology, under the supervision of Professor Linhui Zhao. My research focused on vehicle motion planning in both on-road and open-space environments. You can find my M.S. thesis here: 
+  <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
     <img height="30px" src="/assets/img/pdf_icon.svg"></a>
   <br/><br/>
-  Before I joined HIT, I won a national award in the NXP Cup Intelligent Car Race 2019.
-   <br/><br/>
-  Here is my CV: <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank">
+  Earlier in my career, I won a national award at the NXP Cup Intelligent Car Race in 2019.
+  <br/><br/>
+  <div style="text-align: center;">
+    <video width="60%" height="auto" controls muted>  
+      <source src="assets/vid/race.mp4" type="video/mp4">  
+    </video>
+  </div>
+  <br/><br/>
+  You can also view my CV here: 
+  <a class="ml-auto mr-2" href="/assets/pdf/cv_en.pdf" target="_blank">
+    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
+  <br/> 
+  The Chinese version is available here: 
+  <a class="ml-auto mr-2" href="/assets/pdf/cv_cn.pdf" target="_blank">
     <img height="30px" src="/assets/img/pdf_icon.svg"></a>
 </div>
 
