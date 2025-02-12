@@ -47,6 +47,12 @@ nav: home
     </video>
   </div>
   <br/><br/>
+  <div style="text-align: center;">
+    <video width="60%" height="auto" controls muted>  
+      <source src="assets/vid/e4apa-race.mp4" type="video/mp4">  
+    </video>
+  </div>
+  <br/><br/>
   Prior to this role, I worked as an Algorithm Intern at Momenta Tech Ltd., contributing to the MPilot Self-Driving Project, which was delivered to Mercedes-Benz and Toyota.
   <br/><br/>
   Before joining Momenta, I completed my M.S. in Control Engineering at Harbin Institute of Technology, under the supervision of Professor Linhui Zhao. My research focused on vehicle motion planning in both on-road and open-space environments. You can find my M.S. thesis here: 
