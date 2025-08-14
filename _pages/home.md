@@ -101,7 +101,7 @@ nav: home
             <video class="w-100" controls muted>  
               <source src="assets/vid/e4apa-race.mp4" type="video/mp4">  
             </video>
-            <small class="text-muted">Real-world Testing</small>
+            <small class="text-muted">Racing with humans at OpenDay</small>
           </div>
         </div>
       </div>
