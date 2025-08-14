@@ -49,28 +49,28 @@ nav: home
     <h2 class="mb-4">Career Timeline</h2>
     
     <div class="timeline-container">
-      <div class="timeline-item">
+      <div class="timeline-item current">
         <div class="timeline-date">
-          <span class="badge">2016-2020</span>
+          <span class="badge">2024-Present</span>
         </div>
         <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/dmu_logo.svg' | prepend: site.baseurl }}" alt="DMU Logo" class="institution-logo">
+          <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
           <div class="timeline-info">
-            <h6 class="timeline-title">Dalian Maritime University</h6>
-            <p class="timeline-subtitle">B.Eng. in Automation</p>
+            <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
+            <p class="timeline-subtitle">PhD Student</p>
           </div>
         </div>
       </div>
       
       <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge">2020-2023</span>
+          <span class="badge">2023-2024</span>
         </div>
         <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/hit_logo.svg' | prepend: site.baseurl }}" alt="HIT Logo" class="institution-logo">
+          <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
           <div class="timeline-info">
-            <h6 class="timeline-title">Harbin Institute of Technology</h6>
-            <p class="timeline-subtitle">M.S. in Control Engineering</p>
+            <h6 class="timeline-title">BYD Motor Ltd.</h6>
+            <p class="timeline-subtitle">Motion Planning Engineer</p>
           </div>
         </div>
       </div>
@@ -90,26 +90,26 @@ nav: home
       
       <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge">2023-2024</span>
+          <span class="badge">2020-2023</span>
         </div>
         <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
+          <img src="{{ '/assets/img/institutions/hit_logo.svg' | prepend: site.baseurl }}" alt="HIT Logo" class="institution-logo">
           <div class="timeline-info">
-            <h6 class="timeline-title">BYD Motor Ltd.</h6>
-            <p class="timeline-subtitle">Motion Planning Engineer</p>
+            <h6 class="timeline-title">Harbin Institute of Technology</h6>
+            <p class="timeline-subtitle">M.S. in Control Engineering</p>
           </div>
         </div>
       </div>
       
-      <div class="timeline-item current">
+      <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge">2024-Present</span>
+          <span class="badge">2016-2020</span>
         </div>
         <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
+          <img src="{{ '/assets/img/institutions/dmu_logo.svg' | prepend: site.baseurl }}" alt="DMU Logo" class="institution-logo">
           <div class="timeline-info">
-            <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
-            <p class="timeline-subtitle">PhD Student</p>
+            <h6 class="timeline-title">Dalian Maritime University</h6>
+            <p class="timeline-subtitle">B.Eng. in Automation</p>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ nav: home
           <div class="col-12">
             <div class="embed-responsive embed-responsive-16by9 mb-3">
               <iframe class="embed-responsive-item" 
-                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4&mute=1" 
+                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4&mute=1&autoplay=1" 
                       title="E4APA Demo Video" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -156,26 +156,35 @@ nav: home
                 </span>
               </div>
               
-              <a href="https://youtu.be/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4" target="_blank" class="btn btn-outline-danger btn-sm">
-                <i class="fab fa-youtube"></i> Watch on YouTube
-              </a>
             </div>
           </div>
         </div>
         
         <!-- Local Videos -->
         <div class="row">
-          <div class="col-md-6 mb-3">
-            <video class="w-100" controls muted>  
+          <div class="col-md-4 mb-3">
+            <video class="w-100" controls muted autoplay>  
               <source src="assets/vid/e4apa-plot.mp4" type="video/mp4">  
             </video>
             <small class="text-muted">Path Planning Visualization</small>
           </div>
-          <div class="col-md-6 mb-3">
-            <video class="w-100" controls muted>  
+          <div class="col-md-4 mb-3">
+            <video class="w-100" controls muted autoplay>  
               <source src="assets/vid/e4apa-race.mp4" type="video/mp4">  
             </video>
             <small class="text-muted">Racing with humans at OpenDay</small>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" 
+                      src="//player.bilibili.com/player.html?bvid=BV1aFfAY2EW6&page=1&muted=true&autoplay=1" 
+                      title="Magic movements with 4DW"
+                      frameborder="0" 
+                      scrolling="no" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <small class="text-muted d-block mt-2">Magic movements with 4DW</small>
           </div>
         </div>
       </div>
