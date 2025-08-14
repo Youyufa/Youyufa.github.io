@@ -1,8 +1,26 @@
-_site
-.sass-cache
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.ruby-version
+
+# Ruby
+vendor/
+.bundle/
 Gemfile.lock
-.history
+.ruby-version
+
+# OS
+.DS_Store
 .DS_store
-_site/index.html
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.history
+
+# Local development
+.env

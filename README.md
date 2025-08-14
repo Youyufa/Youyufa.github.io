@@ -1,76 +1,55 @@
-# al-folio
-A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
+# YOU Yufa's Academic Homepage
 
-**al-folio** is based on [\*folio theme](https://github.com/bogoli/-folio).
-The original theme was published by [Lia Bogoev](http://liabogoev.com) and copyrighted under the MIT license.
+A clean academic homepage built with Jekyll and GitHub Pages.
 
-## Getting started
+## Quick Start
 
-For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
-
-### Installation
-
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+### Local Development
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
-$ bundle install
-$ bundle exec jekyll serve --incremental # Add "--incremental" for faster incremental builds.
+# Clone the repository
+git clone https://github.com/Youyufa/Youyufa.github.io.git
+cd Youyufa.github.io
+
+# Install dependencies locally (避免权限问题)
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+# Serve locally
+bundle exec jekyll serve --incremental
 ```
 
-Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, you can deploy it to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+Visit `http://localhost:4000` to see your site.
 
-```bash
-$ ./bin/deploy
-```
+### Deploy to GitHub Pages
+
+Simply push to the `main` branch - GitHub Pages will automatically build and deploy your site.
 
 ## Features
 
-Emphasis on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
+### Academic Focus
+- **Publications**: Automatically generated from BibTeX files in `_bibliography/papers.bib`
+- **News**: Research updates and achievements in `_news/` folder
+- **Projects**: Showcase your research work
+- **Clean Design**: Professional academic layout
 
-To learn more on how to use Jekyll, you can refer to, e.g., [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-To know *why Jekyll*, you can read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/).
+### Customization
+- Edit `_config.yml` for site settings
+- Modify `_pages/home.md` for homepage content
+- Add publications to `_bibliography/papers.bib`
+- Update author info in `_data/coauthors.yml`
 
-### Ergonomic Publications
+## File Structure
 
-Your publications page is generated automatically from your BibTex bibliography.
-Simply edit `_bibliography/papers.bib`.
-You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
-
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-
-### Collections
-This Jekyll theme implements collections to let you break up your work into categories.
-The example is divided into news, poetry, and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
-> To do this, edit the collections in the config file, create a corresponding folder, and update the portfolio and poetry source files.
-
-Three different layouts are included—the poetry layout, for a simple list of entries, the blog layout (`blog/index.html`), for more detailed descriptive list of entries, and the portfolio layout.
-The projects layout overlays a descriptive hoverover on a background image.
-If no image is provided, the square is auto-filled with the chosen theme color.
-Thumbnail sizing is not necessary, as the grid crops images perfectly.
-
-### Theming
-Six beautiful theme colors have been selected to choose from.
-The default is purple, but quickly change it by editing the `_sass/base.scss` file in line 40.
-The color variable are listed there, as well.
-
-### Photos
-Photo formatting is made simple using rows of a 3-column system.
-Make photos 1/3, 2/3, or full width.
-Easily create beautiful grids within your blog posts and projects pages.
-
-### Code Highlighting
-This theme implements Jekyll's built in code syntax highlighting with Pygments.
-Just use a liquid tag to delineate your code:
-{% highlight python %} code code code {% endhighlight %}
-
-## Contributing
-
-Feel free to contribute new features and theme improvements by sending a pull request.
-Style improvements and bug fixes are especially welcome.
+```
+├── _config.yml          # Site configuration
+├── _pages/home.md       # Homepage content
+├── _bibliography/       # Publications (BibTeX)
+├── _news/              # News items
+├── _data/              # Author and venue data
+├── assets/             # Images, CSS, JS
+└── Gemfile             # Ruby dependencies
+```
 
 ## License
 
