@@ -43,80 +43,6 @@ nav: home
   </div>
 </div>
 
-<!-- Career Timeline Section -->
-<div class="row mt-5">
-  <div class="col-12">
-    <h2 class="mb-4">Career Timeline</h2>
-    
-    <div class="timeline-container">
-      <div class="timeline-item current">
-        <div class="timeline-date">
-          <span class="badge">2024-Present</span>
-        </div>
-        <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
-          <div class="timeline-info">
-            <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
-            <p class="timeline-subtitle">PhD Student</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="timeline-item">
-        <div class="timeline-date">
-          <span class="badge">2023-2024</span>
-        </div>
-        <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
-          <div class="timeline-info">
-            <h6 class="timeline-title">BYD Motor Ltd.</h6>
-            <p class="timeline-subtitle">Motion Planning Engineer</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="timeline-item">
-        <div class="timeline-date">
-          <span class="badge">2022</span>
-        </div>
-        <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/Momenta.png' | prepend: site.baseurl }}" alt="Momenta Logo" class="institution-logo">
-          <div class="timeline-info">
-            <h6 class="timeline-title">Momenta Tech Ltd.</h6>
-            <p class="timeline-subtitle">Algorithm Intern</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="timeline-item">
-        <div class="timeline-date">
-          <span class="badge">2020-2023</span>
-        </div>
-        <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/hit_logo.svg' | prepend: site.baseurl }}" alt="HIT Logo" class="institution-logo">
-          <div class="timeline-info">
-            <h6 class="timeline-title">Harbin Institute of Technology</h6>
-            <p class="timeline-subtitle">M.S. in Control Engineering</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="timeline-item">
-        <div class="timeline-date">
-          <span class="badge">2016-2020</span>
-        </div>
-        <div class="timeline-content">
-          <img src="{{ '/assets/img/institutions/dmu_logo.svg' | prepend: site.baseurl }}" alt="DMU Logo" class="institution-logo">
-          <div class="timeline-info">
-            <h6 class="timeline-title">Dalian Maritime University</h6>
-            <p class="timeline-subtitle">B.Eng. in Automation</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Featured Work Section -->
 <div class="row mt-5">
   <div class="col-12">
@@ -214,6 +140,81 @@ nav: home
     </div>
   </div>
 </div>
+
+<!-- Career Timeline Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">Career</h2>
+    
+    <div class="timeline-container">
+      <div class="timeline-item current">
+        <div class="timeline-date">
+          <span class="badge">2024-Present</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
+            <p class="timeline-subtitle">PhD Student</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2023-2024</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">BYD Motor Ltd.</h6>
+            <p class="timeline-subtitle">Motion Planning Engineer</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2022</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/Momenta.png' | prepend: site.baseurl }}" alt="Momenta Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Momenta Tech Ltd.</h6>
+            <p class="timeline-subtitle">Algorithm Intern</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2020-2023</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/hit_logo.svg' | prepend: site.baseurl }}" alt="HIT Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Harbin Institute of Technology</h6>
+            <p class="timeline-subtitle">M.S. in Control Engineering</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2016-2020</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/dmu_logo.svg' | prepend: site.baseurl }}" alt="DMU Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Dalian Maritime University</h6>
+            <p class="timeline-subtitle">B.Eng. in Automation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Publications Section -->
 <div class="row mt-5">
