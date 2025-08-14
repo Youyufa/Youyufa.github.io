@@ -12,8 +12,8 @@ nav: home
   </div>
   <div class="col-md-8">
     <h1 class="title font-weight-bold mb-2">YOU Yufa</h1>
-    <h5 class="text-muted mb-3">Motion Planning Engineer</h5>
-    <p class="lead">BYD Motor Ltd. | Autonomous Driving Unit</p>
+    <h5 class="text-muted mb-3">PhD Student</h5>
+    <p class="lead">The Hong Kong Polytechnic University | Aeronautical and Aviation Engineering</p>
     
     <!-- Contact Links -->
     <div class="mb-3">
@@ -29,16 +29,90 @@ nav: home
   <div class="col-12">
     <h2 class="mb-4">About</h2>
     <p class="text-justify">
-      I am a Motion Planning Engineer at <strong>BYD Ltd.</strong> in the Autonomous Driving Unit, where I develop the E4APA Parking Assistance system for 4WD vehicles. My work focuses on advanced motion planning algorithms for autonomous parking scenarios.
+      I am currently a PhD student in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>, supervised by <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/" target="_blank">Prof. Huang Hailong</a>. My research focuses on <strong>Flight Mechanics and Control</strong>, exploring advanced control algorithms for aerospace applications.
     </p>
     
     <p class="text-justify">
-      Previously, I worked as an Algorithm Intern at <strong>Momenta Tech Ltd.</strong>, contributing to the MPilot Self-Driving Project delivered to Mercedes-Benz and Toyota. I hold an M.S. in Control Engineering from <strong>Harbin Institute of Technology</strong>, where my research focused on vehicle motion planning in both on-road and open-space environments.
+      Previously, I worked as a Motion Planning Engineer at <strong>BYD Ltd.</strong> in the Autonomous Driving Unit, where I developed the E4APA Parking Assistance system for 4WD vehicles. I also contributed to the MPilot Self-Driving Project at <strong>Momenta Tech Ltd.</strong> for Mercedes-Benz and Toyota. I hold an M.S. in Control Engineering from <strong>Harbin Institute of Technology</strong>, where my research focused on vehicle motion planning in both on-road and open-space environments.
     </p>
 
     <!-- Key Achievement -->
     <div class="alert alert-info" role="alert">
       🏆 <strong>Achievement:</strong> National Award Winner at NXP Cup Intelligent Car Race (2019)
+    </div>
+  </div>
+</div>
+
+<!-- Career Timeline Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">Career Timeline</h2>
+    
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2016-2020</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/dmu_logo.svg' | prepend: site.baseurl }}" alt="DMU Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Dalian Maritime University</h6>
+            <p class="timeline-subtitle">B.Eng. in Automation</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2020-2023</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/hit_logo.svg' | prepend: site.baseurl }}" alt="HIT Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Harbin Institute of Technology</h6>
+            <p class="timeline-subtitle">M.S. in Control Engineering</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2022</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/Momenta.png' | prepend: site.baseurl }}" alt="Momenta Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">Momenta Tech Ltd.</h6>
+            <p class="timeline-subtitle">Algorithm Intern</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="badge">2023-2024</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">BYD Motor Ltd.</h6>
+            <p class="timeline-subtitle">Motion Planning Engineer</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="timeline-item current">
+        <div class="timeline-date">
+          <span class="badge">2024-Present</span>
+        </div>
+        <div class="timeline-content">
+          <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
+          <div class="timeline-info">
+            <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
+            <p class="timeline-subtitle">PhD Student</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -59,7 +133,7 @@ nav: home
           <div class="col-12">
             <div class="embed-responsive embed-responsive-16by9 mb-3">
               <iframe class="embed-responsive-item" 
-                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4" 
+                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4&mute=1" 
                       title="E4APA Demo Video" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
