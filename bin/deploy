@@ -54,6 +54,16 @@ else
     git checkout -b $SRC_BRANCH
 fi
 
+# Add and commit all changes to source branch
+echo "Saving changes to source branch..."
+git add -A
+if ! git diff --cached --quiet; then
+    git commit -m "Update source files before deploy"
+    echo "Changes committed to $SRC_BRANCH branch"
+else
+    echo "No changes to commit in $SRC_BRANCH branch"
+fi
+
 # Checkout DEPLOY_BRANCH branch
 if [ `git branch | grep $DEPLOY_BRANCH` ]
 then

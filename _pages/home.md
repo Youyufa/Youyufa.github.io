@@ -5,98 +5,174 @@ title: home
 nav: home
 ---
 
-<div class="text-center mt-5">
-  <img class="profile-img" src="{{ 'prof_pic.jpeg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
-</div>
-
-<div class="col mt-4">
-  <h1 class="title text-center font-weight-bold">YOU Yufa</h1>
-  <div class="row mt-3 mb-3">
-    <div class="col">
-      <h6 class="mt-1 text-center text-sm-center" style="font-stretch: ultra-condensed;">
-        Motion Planning Engineer<br/>
-        BYD Motor Ltd. Autonomous Driving Unit
-      </h6>
+<!-- Header Section -->
+<div class="row">
+  <div class="col-md-4 text-center">
+    <img class="profile-img rounded-circle mb-3" src="{{ 'prof_pic.jpeg' | prepend: '/assets/img/' | prepend: site.baseurl }}" style="width: 200px; height: 200px; object-fit: cover;">
+  </div>
+  <div class="col-md-8">
+    <h1 class="title font-weight-bold mb-2">YOU Yufa</h1>
+    <h5 class="text-muted mb-3">Motion Planning Engineer</h5>
+    <p class="lead">BYD Motor Ltd. | Autonomous Driving Unit</p>
+    
+    <!-- Contact Links -->
+    <div class="mb-3">
+      <a href="mailto:iyouyufa@gmail.com" class="btn btn-outline-primary btn-sm mr-2">📧 Email</a>
+      <a href="/assets/pdf/cv_en.pdf" target="_blank" class="btn btn-outline-secondary btn-sm mr-2">📄 CV</a>
+      <a href="https://github.com/Youyufa" target="_blank" class="btn btn-outline-dark btn-sm">💻 GitHub</a>
     </div>
-    <!-- <div class="col-sm-6">
-      <h6 class="mt-1 text-left text-sm-right" style="font-stretch: ultra-condensed;">
-        <a style="color: rgb(60, 72, 88);" href="http://www.ml.cmu.edu/" target="_blank">Principal Researcher</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="http://www.cs.cmu.edu/" target="_blank">Semantic Machines</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="http://www.cmu.edu/" target="_blank">Microsoft</a>
-      </h6>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">About</h2>
+    <p class="text-justify">
+      I am a Motion Planning Engineer at <strong>BYD Ltd.</strong> in the Autonomous Driving Unit, where I develop the E4APA Parking Assistance system for 4WD vehicles. My work focuses on advanced motion planning algorithms for autonomous parking scenarios.
+    </p>
+    
+    <p class="text-justify">
+      Previously, I worked as an Algorithm Intern at <strong>Momenta Tech Ltd.</strong>, contributing to the MPilot Self-Driving Project delivered to Mercedes-Benz and Toyota. I hold an M.S. in Control Engineering from <strong>Harbin Institute of Technology</strong>, where my research focused on vehicle motion planning in both on-road and open-space environments.
+    </p>
+
+    <!-- Key Achievement -->
+    <div class="alert alert-info" role="alert">
+      🏆 <strong>Achievement:</strong> National Award Winner at NXP Cup Intelligent Car Race (2019)
     </div>
-    <div class="col-sm-6">
-      <h6 class="mt-1 text-left text-sm-left" style="font-stretch: ultra-condensed;">
-        Berkeley Way West, Floor 7<br/>
-        1919 Shattuck Ave<br/>
-        Berkeley, CA, 94704
-      </h6>
-    </div> -->
   </div>
 </div>
 
-<!-- Introduction -->
-
-<div class="col text-justify p-0">
-
-  I am a Motion Planning Engineer at BYD Ltd. in the Autonomous Driving Unit, where we are developing the E4APA Parking Assistance system for 4WD vehicles.
-  <br/><br/>
-  <div style="text-align: center;">
-    <video width="60%" height="auto" controls muted>  
-      <source src="assets/vid/e4apa-plot.mp4" type="video/mp4">  
-    </video>
-  </div>
-  <br/><br/>
-  <div style="text-align: center;">
-    <video width="60%" height="auto" controls muted>  
-      <source src="assets/vid/e4apa-race.mp4" type="video/mp4">  
-    </video>
-  </div>
-  <br/><br/>
-  Prior to this role, I worked as an Algorithm Intern at Momenta Tech Ltd., contributing to the MPilot Self-Driving Project, which was delivered to Mercedes-Benz and Toyota.
-  <br/><br/>
-  Before joining Momenta, I completed my M.S. in Control Engineering at Harbin Institute of Technology, under the supervision of Professor Linhui Zhao. My research focused on vehicle motion planning in both on-road and open-space environments. You can find my M.S. thesis here: 
-  <a class="ml-auto mr-2" href="/assets/pdf/thesis.pdf" target="_blank">
-    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
-  <br/><br/>
-  Earlier in my career, I won a national award at the NXP Cup Intelligent Car Race in 2019.
-  <br/><br/>
-  <div style="text-align: center;">
-    <video width="60%" height="auto" controls muted>  
-      <source src="assets/vid/race.mp4" type="video/mp4">  
-    </video>
-  </div>
-  <br/><br/>
-  You can also view my CV here: 
-  <a class="ml-auto mr-2" href="/assets/pdf/cv_en.pdf" target="_blank">
-    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
-  <br/> 
-  The Chinese version is available here: 
-  <a class="ml-auto mr-2" href="/assets/pdf/cv_cn.pdf" target="_blank">
-    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
-</div>
-
-<!-- News -->
-<div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">publications</h1>
-  [1] Y. You, L. Zhao, H. Liu and Z. Liu, "A Hybrid Trajectory Planning Strategy for Intelligent Vehicles with Collision Avoidance," 2022 41st Chinese Control Conference (CCC), Hefei, China, 2022, pp. 5353-5358, doi: 10.23919/CCC55666.2022.9901901.<a class="ml-auto mr-2" href="/assets/pdf/ccc.pdf" target="_blank">
-    <img height="30px" src="/assets/img/pdf_icon.svg"></a>
-</div>
-
-<!-- News -->
-<div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">news</h1>
-  {% assign news = site.news | reverse %}
-  {% for item in news limit: site.news_limit %}
-    <div class="row p-0">
-      <div class="col-sm-2 p-0">
-        <span class="badge black font-weight-bold text-uppercase align-middle date ml-3">
-          {{ item.date | date: "%b %-d, %Y" }}
-        </span>
+<!-- Featured Work Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">Featured Work</h2>
+    
+    <!-- E4APA Project -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">E4APA - 4WD Parking Assistance System</h5>
+        <p class="card-text">Advanced motion planning algorithms for autonomous parking in complex scenarios.</p>
+        
+        <!-- Featured YouTube Video -->
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9 mb-3">
+              <iframe class="embed-responsive-item" 
+                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4" 
+                      title="E4APA Demo Video" 
+                      frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <div class="text-center">
+              <small class="text-muted">E4APA System Demonstration</small>
+              
+              <!-- YouTube Stats -->
+              <div class="d-flex justify-content-center align-items-center mt-2 mb-2">
+                <span class="badge badge-light mr-2">
+                  <i class="fas fa-play"></i> 508K views
+                </span>
+                <span class="badge badge-light mr-2">
+                  <i class="fas fa-thumbs-up"></i> 2.1k likes
+                </span>
+                <span class="badge badge-light">
+                  <i class="fas fa-comment"></i> 296 comments
+                </span>
+              </div>
+              
+              <a href="https://youtu.be/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4" target="_blank" class="btn btn-outline-danger btn-sm">
+                <i class="fab fa-youtube"></i> Watch on YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Local Videos -->
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <video class="w-100" controls muted>  
+              <source src="assets/vid/e4apa-plot.mp4" type="video/mp4">  
+            </video>
+            <small class="text-muted">Path Planning Visualization</small>
+          </div>
+          <div class="col-md-6 mb-3">
+            <video class="w-100" controls muted>  
+              <source src="assets/vid/e4apa-race.mp4" type="video/mp4">  
+            </video>
+            <small class="text-muted">Real-world Testing</small>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
+    </div>
+
+    <!-- NXP Cup Project -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">NXP Cup Intelligent Car Race - National Award</h5>
+        <p class="card-text">Autonomous vehicle control and navigation system for competitive racing.</p>
+        
+        <div class="row">
+          <div class="col-md-8 mb-3">
+            <video class="w-100" controls muted>  
+              <source src="assets/vid/race.mp4" type="video/mp4">  
+            </video>
+            <small class="text-muted">Competition Performance</small>
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+            <div>
+              <h6>🏆 National Award Winner</h6>
+              <p class="text-muted">Recognized for excellence in autonomous vehicle control algorithms and system integration.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  {% endfor %}
+  </div>
+</div>
+
+<!-- Publications Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">Selected Publications</h2>
+    
+    <div class="card">
+      <div class="card-body">
+        <h6 class="card-title">A Hybrid Trajectory Planning Strategy for Intelligent Vehicles with Collision Avoidance</h6>
+        <p class="card-text">
+          <strong>Y. You</strong>, L. Zhao, H. Liu and Z. Liu<br>
+          <em>2022 41st Chinese Control Conference (CCC)</em>, Hefei, China, 2022, pp. 5353-5358
+        </p>
+        <div class="mt-2">
+          <a href="/assets/pdf/ccc.pdf" target="_blank" class="btn btn-outline-primary btn-sm">
+            📄 PDF
+          </a>
+          <a href="/assets/pdf/thesis.pdf" target="_blank" class="btn btn-outline-secondary btn-sm">
+            📖 Thesis
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- News Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">Recent News</h2>
+    {% assign news = site.news | reverse %}
+    {% for item in news limit: site.news_limit %}
+      <div class="d-flex mb-3">
+        <div class="flex-shrink-0">
+          <span class="badge badge-primary">
+            {{ item.date | date: "%b %Y" }}
+          </span>
+        </div>
+        <div class="flex-grow-1 ml-3">
+          <p class="mb-0">{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
