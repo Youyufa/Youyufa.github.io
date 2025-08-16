@@ -141,6 +141,19 @@ nav: home
   </div>
 </div>
 
+<!-- GitHub Contributions Section -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h2 class="mb-4">GitHub Activity</h2>
+    
+    
+    <div class="github-contributions mb-4">
+          <img src="https://ghchart.rshah.org/edyou25" alt="GitHub Contributions" class="w-100" style="max-width: 100%; height: auto;">
+        </div>
+        
+  </div>
+</div>
+
 <!-- Career Timeline Section -->
 <div class="row mt-5">
   <div class="col-12">
@@ -260,3 +273,5 @@ nav: home
     {% endfor %}
   </div>
 </div>
+
+

@@ -34353,6 +34353,36 @@ footer {
   100% {
     transform: scale(1.2);
     opacity: 0; } }
+.github-contributions {
+  text-align: center; }
+  .github-contributions img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .github-contributions img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); }
+
+.github-stats .card-img-top {
+  border-radius: 6px;
+  transition: transform 0.3s ease; }
+  .github-stats .card-img-top:hover {
+    transform: translateY(-2px); }
+
+.repo-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .repo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-decoration: none; }
+
+@media (max-width: 768px) {
+  .github-contributions img {
+    max-width: 100%;
+    height: auto; }
+
+  .github-stats .row > div {
+    margin-bottom: 1rem; } }
 /** Variables **********************************************
 $base-font-family:              Helvetica, sans-serif;
 $base-font-size:                15px;
