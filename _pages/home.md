@@ -19,7 +19,7 @@ nav: home
     <div class="mb-3">
       <a href="mailto:iyouyufa@gmail.com" class="btn btn-outline-primary btn-sm mr-2">📧 Email</a>
       <a href="/assets/pdf/cv_en.pdf" target="_blank" class="btn btn-outline-secondary btn-sm mr-2">📄 CV</a>
-      <a href="https://github.com/Youyufa" target="_blank" class="btn btn-outline-dark btn-sm">💻 GitHub</a>
+      <a href="https://github.com/edyou25" target="_blank" class="btn btn-outline-dark btn-sm">💻 GitHub</a>
     </div>
   </div>
 </div>
