@@ -59,7 +59,7 @@ nav: home
           <div class="col-12">
             <div class="embed-responsive embed-responsive-16by9 mb-3">
               <iframe class="embed-responsive-item" 
-                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4&mute=1&autoplay=1" 
+                      src="https://www.youtube.com/embed/XRDDc8HkzMI?si=UVLOhKN1yFvj0gl4&mute=1&autoplay=1&loop=1&playlist=XRDDc8HkzMI" 
                       title="E4APA Demo Video" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
