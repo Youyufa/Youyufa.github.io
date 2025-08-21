@@ -12,7 +12,7 @@ nav: home
   </div>
   <div class="col-md-8">
     <h1 class="title font-weight-bold mb-2">YOU Yufa</h1>
-    <h5 class="text-muted mb-3">PhD Student</h5>
+    <h5 class="text-muted mb-3">Research Assistant</h5>
     <p class="lead">The Hong Kong Polytechnic University | Aeronautical and Aviation Engineering</p>
     
     <!-- Contact Links -->
@@ -28,8 +28,13 @@ nav: home
 <div class="row mt-5">
   <div class="col-12">
     <h2 class="mb-4">About</h2>
+    <!--
     <p class="text-justify">
       I am currently a PhD student in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>, supervised by <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/" target="_blank">Prof. Huang Hailong</a>. My research focuses on <strong>Flight Mechanics and Control</strong>, exploring advanced control algorithms for aerospace applications.
+    </p>
+    -->
+    <p class="text-justify">
+      I am currently a <strong>Research Assistant</strong> in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>.
     </p>
     
     <p class="text-justify">
@@ -168,7 +173,7 @@ nav: home
           <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
           <div class="timeline-info">
             <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
-            <p class="timeline-subtitle">PhD Student</p>
+            <p class="timeline-subtitle">Research Assistant</p>
           </div>
         </div>
       </div>
