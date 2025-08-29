@@ -58,20 +58,10 @@ fi
 echo "Saving changes to source branch..."
 git add -A
 if ! git diff --cached --quiet; then
-    # 使用OpenAI API自动生成commit message
-    COMMIT_MSG=$(git diff --cached | head -c 4000 | \
-      curl -s https://api.openai.com/v1/chat/completions \
-        -H "Content-Type: application/json" \
-        -H "Authorization: Bearer $OPENAI_API_KEY" \
-        -d '{
-          "model": "gpt-3.5-turbo",
-          "messages": [
-            {"role": "system", "content": "你是一个专业的git commit message生成器，只输出一句简洁明了的英文commit message，总结下面的diff变更。"},
-            {"role": "user", "content": "'$(cat)'"}
-          ],
-          "max_tokens": 60
-        }' | jq -r '.choices[0].message.content' | head -c 200)
-    if [ -z "$COMMIT_MSG" ]; then
+    # 从bin/msg文件读取commit message
+    if [ -f "bin/msg" ]; then
+      COMMIT_MSG=$(cat bin/msg)
+    else
       COMMIT_MSG="Update source files before deploy"
     fi
     git commit -m "$COMMIT_MSG"
