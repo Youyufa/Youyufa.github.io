@@ -1,3 +1,5 @@
+bin/msg
+
 # Jekyll
 _site/
 .sass-cache/
