@@ -77,13 +77,13 @@ nav: home
               <!-- YouTube Stats -->
               <div class="d-flex justify-content-center align-items-center mt-2 mb-2">
                 <span class="badge badge-light mr-2">
-                  <i class="fas fa-play"></i> 508K views
+                  <i class="fas fa-play"></i> 529K views
                 </span>
                 <span class="badge badge-light mr-2">
-                  <i class="fas fa-thumbs-up"></i> 2.1k likes
+                  <i class="fas fa-thumbs-up"></i> 2.2k likes
                 </span>
                 <span class="badge badge-light">
-                  <i class="fas fa-comment"></i> 296 comments
+                  <i class="fas fa-comment"></i> 308 comments
                 </span>
               </div>
               
