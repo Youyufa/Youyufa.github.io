@@ -1,1 +1,1 @@
-Add bin/msg to .gitignore and create QGC development update document
+Refactor deploy script to read commit message from bin/msg and add run script for incremental Jekyll serving
