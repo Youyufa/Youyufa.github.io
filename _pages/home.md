@@ -168,20 +168,20 @@ nav: home
     <div class="timeline-container">
       <div class="timeline-item current">
         <div class="timeline-date">
-          <span class="badge">2024-Present</span>
+          <span class="badge">2025-Present</span>
         </div>
         <div class="timeline-content">
           <img src="{{ '/assets/img/institutions/polyu.png' | prepend: site.baseurl }}" alt="PolyU Logo" class="institution-logo">
           <div class="timeline-info">
             <h6 class="timeline-title">The Hong Kong Polytechnic University</h6>
-            <p class="timeline-subtitle">Research Assistant</p>
+            <p class="timeline-subtitle">Phd Student</p>
           </div>
         </div>
       </div>
       
       <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge">2023-2024</span>
+          <span class="badge">2023-2025</span>
         </div>
         <div class="timeline-content">
           <img src="{{ '/assets/img/institutions/byd_logo.svg' | prepend: site.baseurl }}" alt="BYD Logo" class="institution-logo">
