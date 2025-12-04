@@ -12,7 +12,8 @@ nav: home
   </div>
   <div class="col-md-8">
     <h1 class="title font-weight-bold mb-2">YOU Yufa</h1>
-    <h5 class="text-muted mb-3">Research Assistant</h5>
+    <!-- <h5 class="text-muted mb-3">Research Assistant</h5> -->
+    <h5 class="text-muted mb-3">PhD student</h5>
     <p class="lead">The Hong Kong Polytechnic University | Aeronautical and Aviation Engineering</p>
     
     <!-- Contact Links -->
@@ -28,15 +29,15 @@ nav: home
 <div class="row mt-5">
   <div class="col-12">
     <h2 class="mb-4">About</h2>
-    <!--
+    
     <p class="text-justify">
-      I am currently a PhD student in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>, supervised by <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/" target="_blank">Prof. Huang Hailong</a>. My research focuses on <strong>Flight Mechanics and Control</strong>, exploring advanced control algorithms for aerospace applications.
+      I am currently a PhD student in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>, supervised by <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/" target="_blank">Prof. Huang Hailong</a>. My research focuses on <strong>Robotics</strong>, exploring advanced planning and control algorithms for robots.
     </p>
-    -->
+<!--    
     <p class="text-justify">
       I am currently a <strong>Research Assistant</strong> in the <strong>Department of Aeronautical and Aviation Engineering</strong> at <strong>The Hong Kong Polytechnic University</strong>.
     </p>
-    
+     -->
     <p class="text-justify">
       Previously, I worked as a Motion Planning Engineer at <strong>BYD Ltd.</strong> in the Autonomous Driving Unit, where I developed the E4APA Parking Assistance system for 4WD vehicles. I also contributed to the MPilot Self-Driving Project at <strong>Momenta Tech Ltd.</strong> for Mercedes-Benz and Toyota. I hold an M.S. in Control Engineering from <strong>Harbin Institute of Technology</strong>, where my research focused on vehicle motion planning in both on-road and open-space environments.
     </p>
