@@ -1,60 +1,40 @@
-# -----------------------------------------------------------------------------
-# Site Settings
-# -----------------------------------------------------------------------------
-
-name: YOU Yufa
+# Site
 title: YOU Yufa
-email: iyouyufa@gmail.com
+subtitle: Motion Planning, Self-Driving
 description: Motion Planning, Self-Driving
-url: youyufa.github.io
+author: YOU Yufa
+language: en
+timezone: Asia/Hong_Kong
 
-# -----------------------------------------------------------------------------
-# Social Integration
-# -----------------------------------------------------------------------------
-scholar_userid: EFVk-mwAAAAJ
-github_username: Youyufa
-linkedin_username: yufa-you-2491a7228
-contact_note: Feel free to drop me a line via email.
+# URL
+url: https://youyufa.github.io
+root: /
+permalink: :title/
+permalink_defaults:
 
-google_analytics: UA-54519238-1
+# Directory
+source_dir: source
+public_dir: public
 
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
+# Writing
+new_post_name: :title.md
+post_asset_folder: false
 
-collections:
-  news:
-    defaults:
-      layout: page
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: false
-    permalink: /projects/:path/
+# Home page is a custom page; move blog index to /blog
+index_generator:
+  path: blog
+  per_page: 10
+  order_by: -date
 
-news_limit: 10
+# Theme
+theme: redefine
 
-# -----------------------------------------------------------------------------
-# Jekyll Settings
-# -----------------------------------------------------------------------------
+# Render
+marked:
+  prependRoot: true
+  postAsset: false
 
-markdown: kramdown
-include: ['_pages']
-exclude: [node_modules, vendor, .bundle]
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll/scholar
-  - jemoji
-
-# Jekyll-Scholar
-scholar:
-  last_name: You
-  style: apa
-  locale: en
-  sort_by: year
-  order: descending
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: publication
+# Static passthrough
+skip_render:
+  - "assets/**"
+  - "news/**"

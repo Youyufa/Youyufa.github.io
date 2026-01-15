@@ -1,56 +1,36 @@
 # YOU Yufa's Academic Homepage
 
-A clean academic homepage built with Jekyll and GitHub Pages.
+This homepage is built with Hexo using the Redefine theme.
 
-## Quick Start
-
-### Local Development
+## Local Development
 
 ```bash
-# Clone the repository
-git clone https://github.com/Youyufa/Youyufa.github.io.git
-cd Youyufa.github.io
-
-# Install dependencies locally (避免权限问题)
-bundle config set --local path 'vendor/bundle'
-bundle install
-
-# Serve locally
-bundle exec jekyll serve --incremental
+npm install
+npm run server
 ```
 
-Visit `http://localhost:4000` to see your site.
+Visit `http://localhost:4000` to preview the site.
 
-### Deploy to GitHub Pages
+## Build
 
-Simply push to the `main` branch - GitHub Pages will automatically build and deploy your site.
-
-## Features
-
-### Academic Focus
-- **Publications**: Automatically generated from BibTeX files in `_bibliography/papers.bib`
-- **News**: Research updates and achievements in `_news/` folder
-- **Projects**: Showcase your research work
-- **Clean Design**: Professional academic layout
-
-### Customization
-- Edit `_config.yml` for site settings
-- Modify `_pages/home.md` for homepage content
-- Add publications to `_bibliography/papers.bib`
-- Update author info in `_data/coauthors.yml`
-
-## File Structure
-
-```
-├── _config.yml          # Site configuration
-├── _pages/home.md       # Homepage content
-├── _bibliography/       # Publications (BibTeX)
-├── _news/              # News items
-├── _data/              # Author and venue data
-├── assets/             # Images, CSS, JS
-└── Gemfile             # Ruby dependencies
+```bash
+npm run build
 ```
 
-## License
+The generated site will be in `public/`.
 
-MIT
+## Structure
+
+```
+├── _config.yml                 # Hexo configuration
+├── source/index.ejs            # Homepage content
+├── source/assets/              # Images, PDFs, videos
+├── source/news/                # Legacy news snippets
+├── source/css/home.css         # Custom homepage styling
+└── themes/redefine/_config.yml # Theme configuration
+```
+
+## Notes
+
+- The blog index is moved to `/blog` so the homepage can live at `/`.
+- Update content in `source/index.ejs` and assets in `source/assets/`.
