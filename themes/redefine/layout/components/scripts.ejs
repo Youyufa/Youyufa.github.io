@@ -34,7 +34,7 @@
     <%- renderCSS('assets/odometer-theme-minimal.css') %>
 <% } %>
 
-<% if (theme.home_banner.subtitle.length !== 0) { %>
+<% if (theme.home_banner.subtitle && theme.home_banner.subtitle.text && theme.home_banner.subtitle.text.length !== 0) { %>
   <%- renderJS('libs/Typed.min.js') %>
   <%- renderJS('plugins/typed.js', {
       module: true

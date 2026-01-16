@@ -4,7 +4,7 @@
 <% } %>
 <main class="page-container" id="swup">
 
-	<% if (theme.home_banner.enable === true && is_home() && !page.prev) { %>
+	<% if (theme.home_banner.enable === true && (is_home() || page.home_banner === true) && !page.prev) { %>
 	<%- partial('pages/home/home-banner') %>
 	<% } else if (theme.home_banner.enable === true && is_home() && page.prev && theme.home_banner.style === "fixed") { %>
 	<%- partial('pages/home/home-background') %>

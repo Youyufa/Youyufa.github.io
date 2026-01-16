@@ -1,8 +1,139 @@
+:root {
+  --chainsaw-orange: #1f4a7d;
+  --chainsaw-green: #2b6cb0;
+  --chainsaw-cream: #f7f8fb;
+  --chainsaw-ink: #0f1a2b;
+  --chainsaw-ink-2: #18253a;
+  --chainsaw-ink-3: #1f2e46;
+
+  --background-color: var(--chainsaw-cream) !important;
+  --second-background-color: #eef1f6 !important;
+  --third-background-color: #e3e9f2 !important;
+  --background-color-transparent-80: rgba(247, 248, 251, 0.92) !important;
+  --background-color-transparent-40: rgba(247, 248, 251, 0.6) !important;
+  --background-color-transparent-15: rgba(247, 248, 251, 0.2) !important;
+
+  --primary-color: var(--chainsaw-orange) !important;
+  --link-color: var(--chainsaw-green) !important;
+  --selection-color: #c3d3ea !important;
+
+  --first-text-color: var(--chainsaw-ink) !important;
+  --default-text-color: var(--chainsaw-ink) !important;
+  --second-text-color: #3a4a63 !important;
+  --third-text-color: #5c6f86 !important;
+  --fourth-text-color: #8899ad !important;
+  --invert-text-color: var(--chainsaw-cream) !important;
+
+  --border-color: rgba(15, 26, 43, 0.12) !important;
+  --shadow-color-1: rgba(15, 26, 43, 0.08) !important;
+  --shadow-color-2: rgba(15, 26, 43, 0.18) !important;
+  --scrollbar-color: #8aa2bf !important;
+  --scrollbar-color-hover: #6b89b0 !important;
+  --scroll-bar-bg-color: #eef2f7 !important;
+
+  --home-banner-text-color: #1b2a41 !important;
+  --home-banner-icons-container-border-color: rgba(15, 26, 43, 0.12) !important;
+  --home-banner-icons-container-background-color: rgba(247, 248, 251, 0.75) !important;
+}
+
+.home-banner-background {
+  overflow: hidden;
+  background: transparent !important;
+  filter: none !important;
+}
+
+.home-banner-background img {
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+.home-banner-background::before,
+.home-banner-background::after {
+  content: none !important;
+  display: none !important;
+}
+
+.home-banner-container .description {
+  letter-spacing: 0.02em;
+  text-shadow: 0 10px 28px rgba(15, 26, 43, 0.18);
+}
+
+.home-banner-container .description p {
+  margin-top: 0.4rem;
+}
+
+.home-banner-title {
+  margin: 0;
+  line-height: 1.03;
+  color: var(--home-banner-text-color);
+  text-shadow: 0 10px 24px rgba(15, 26, 43, 0.2);
+}
+
+.home-banner-subtitle-line {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.08em;
+  margin-top: 0.45rem;
+  font-size: 0.55em;
+  line-height: 1.2;
+}
+
+.home-banner-subtitle {
+  display: inline;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  color: var(--link-color);
+}
+
+.home-banner-subtitle-line #subtitle,
+.home-banner-subtitle-line .typed-cursor {
+  font-size: inherit;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.home-banner-subtitle-line .typed-cursor {
+  margin-left: 0.05em;
+}
+
+.page-template-container {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.page-template-content {
+  padding-top: 0;
+}
+
+.home-card,
+.home-highlight,
+.home-github,
+.home-award {
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--shadow-color-1);
+}
+
+.home-button,
+.home-chip,
+.home-news-date,
+.home-timeline-logo {
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(8px);
+}
 .home-hero {
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 2rem;
   align-items: center;
+  padding: 2.2rem;
+  border-radius: 18px;
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--redefine-box-shadow-flat);
   margin: 2.5rem 0 3rem;
 }
 
@@ -58,7 +189,8 @@
   padding: 0.5rem 1rem;
   border-radius: 999px;
   border: 1px solid var(--shadow-color-1);
-  background: var(--background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(8px);
   color: var(--default-text-color);
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
@@ -81,15 +213,51 @@
 }
 
 .home-button.ghost {
-  background: var(--second-background-color);
+  background: var(--background-color-transparent-80);
 }
 
 .home-section {
-  margin-top: 3rem;
+  margin-top: 2.2rem;
 }
 
 .home-section h2 {
   margin-bottom: 1rem;
+}
+
+.home-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 2rem;
+  align-items: start;
+  margin-top: 2.5rem;
+}
+
+.home-main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-main-col .home-section {
+  margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .home-main-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .home-main-grid {
+    margin-top: 2rem;
+    gap: 1.6rem;
+  }
+
+  .home-main-col {
+    gap: 1.6rem;
+  }
 }
 
 .home-highlight {
@@ -98,7 +266,8 @@
   align-items: center;
   padding: 1rem 1.2rem;
   border-radius: 14px;
-  background: var(--third-background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--shadow-color-1);
   margin-top: 1.2rem;
 }
@@ -116,7 +285,8 @@
 }
 
 .home-card {
-  background: var(--second-background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--shadow-color-1);
   border-radius: 18px;
   padding: 1.5rem;
@@ -156,7 +326,8 @@
   gap: 0.35rem;
   padding: 0.25rem 0.7rem;
   border-radius: 999px;
-  background: var(--background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(8px);
   border: 1px solid var(--shadow-color-1);
   font-size: 0.8rem;
   color: var(--second-text-color);
@@ -240,7 +411,8 @@
   padding: 6px;
   border-radius: 12px;
   border: 1px solid var(--shadow-color-1);
-  background: var(--background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(8px);
 }
 
 .home-timeline-title {
@@ -272,7 +444,8 @@
   align-items: center;
   padding: 0.35rem 0.6rem;
   border-radius: 999px;
-  background: var(--third-background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(8px);
   border: 1px solid var(--shadow-color-1);
   font-size: 0.8rem;
   color: var(--second-text-color);
@@ -300,14 +473,16 @@
   gap: 0.5rem;
   padding: 1rem;
   border-radius: 14px;
-  background: var(--background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--shadow-color-1);
 }
 
 .home-github {
   padding: 1rem;
   border-radius: 14px;
-  background: var(--second-background-color);
+  background: var(--background-color-transparent-80);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--shadow-color-1);
 }
 

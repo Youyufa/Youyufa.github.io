@@ -45,10 +45,12 @@
              style="font-family: '<%- theme.home_banner.custom_font.family %>', sans-serif; !important;"
                 <% } %>
         >
-            <%- theme.home_banner.title || theme.style.first_screen.description || config.description %>
+            <h1 class="home-banner-title"><%- theme.home_banner.title || theme.style.first_screen.description || config.description %></h1>
             <%# theme.style.first_screen.description is deprecated %>
-            <% if (theme.home_banner.subtitle.length !== 0) { %>
-                <p><i id="subtitle"></i></p>
+            <% if (theme.home_banner.subtitle && theme.home_banner.subtitle.text && theme.home_banner.subtitle.text.length !== 0) { %>
+                <span class="home-banner-subtitle-line" aria-live="polite">
+                    <span id="subtitle" class="home-banner-subtitle"></span>
+                </span>
             <% } %>
         </div>
         <% if (theme.home_banner.social_links.enable) { %>
