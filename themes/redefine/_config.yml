@@ -131,8 +131,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /assets/img/bg.c # light mode
-    dark: /assets/img/bg.c # dark mode
+    light: /assets/img/bg.jpg # light mode
+    dark: /assets/img/bg.jpg # dark mode
   # Home banner title
   title: YOU Yufa
   # Home banner subtitle
@@ -432,8 +432,36 @@ inject:
     - '<link rel="stylesheet" href="/css/home.css">'
   # Inject custom footer html code
   footer:
-    -
-    -
+    - |
+      <script>
+        (() => {
+          const root = document.documentElement;
+          let heroThreshold = 120;
+
+          const computeThreshold = () => {
+            const hero = document.querySelector(".home-banner-container");
+            heroThreshold = hero ? Math.max(120, hero.offsetHeight - 120) : 120;
+          };
+
+          const update = () => {
+            const y = window.scrollY || 0;
+            root.dataset.scrolled = y > 8 ? "1" : "0";
+            root.dataset.afterHero = y > heroThreshold ? "1" : "0";
+          };
+
+          window.addEventListener("scroll", update, { passive: true });
+          window.addEventListener("resize", () => {
+            computeThreshold();
+            update();
+          }, { passive: true });
+          window.addEventListener("load", () => {
+            computeThreshold();
+            update();
+          }, { passive: true });
+          computeThreshold();
+          update();
+        })();
+      </script>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
