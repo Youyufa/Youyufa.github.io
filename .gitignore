@@ -1,16 +1,9 @@
 bin/msg
 
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Ruby
-vendor/
-.bundle/
-Gemfile.lock
-.ruby-version
+# Hexo
+public/
+db.json
+node_modules/
 
 # OS
 .DS_Store
